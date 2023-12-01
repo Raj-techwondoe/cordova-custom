@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/petervojtek/cordova-plugin-shell-exec"
+    "url": "https://github.com/Raj-techwondoe/cordova-custom.git"
   },
   "keywords": [
     "exec",
@@ -29,9 +29,5 @@
     }
   ],
   "author": "Peter Vojtek",
-  "license": "Apache 2.0",
-  "bugs": {
-    "url": "https://github.com/petervojtek/cordova-plugin-shell-exec/issues"
-  },
-  "homepage": "https://github.com/petervojtek/cordova-plugin-shell-exec"
+  "license": "Apache 2.0"
 }

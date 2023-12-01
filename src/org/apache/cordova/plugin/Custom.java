@@ -39,10 +39,6 @@ import java.io.InputStreamReader;
 
 public class Custom extends CordovaPlugin {
 
-@Override
-public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {
-
-
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         if (action.equals("enableUSBDebugging")) {
@@ -122,5 +118,4 @@ public boolean execute(String action, JSONArray args, final CallbackContext call
             callbackContext.error("Error checking USB Status");
         }
     } 
-
 }
